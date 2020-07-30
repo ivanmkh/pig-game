@@ -19,7 +19,7 @@ class PigGameLogic {
         document.querySelector('.btn-roll').addEventListener('click', () => {
             // dice process
             let dice = Math.round(Math.random() * 5 + 1);
-            document.querySelector('.dice').src = `dice-${dice}.png`;
+            document.querySelector('.dice').src = `assets/dice-${dice}.png`;
             // show currecnt round score
             this.roundScore += dice;
             document.getElementById(`current-${this.currentPlayer}`).textContent = this.roundScore;
