@@ -3,7 +3,7 @@ class PigGameLogic {
         this.score = [0, 0];
         this.currentPlayer = 0;
         this.roundScore = 0;
-        this.winningScore = 20;
+        this.winningScore = 100;
     }
 
     rollDice = () => {
